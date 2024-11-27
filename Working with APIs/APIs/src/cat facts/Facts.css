@@ -1,0 +1,36 @@
+/* Center the content and apply some padding */
+.facts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the fact text */
+  .fact-text {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Adding a hover effect */
+  .fact-text:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Optional: Add a loading animation */
+  .loading {
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
